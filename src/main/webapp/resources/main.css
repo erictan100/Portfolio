@@ -1,0 +1,120 @@
+body{
+	padding: 0;
+	margin: 0;
+	background: #e0e0eb;	
+}
+
+.navbar{
+	background: #3385ff;	
+}
+
+.nav-link,
+.navbar-brand{
+	color: #fff;
+	cursor: pointer;
+	margin-left: 20px;
+}
+
+.nav-link{
+	margin-right: 1em;
+}
+
+.nav-link:hover{
+	background-color: #fff;
+	color:#000;
+	border: 1px solid #fff;
+	transition: 0.3s ease;
+}
+
+.navbar-collapse{
+	justify-content: flex-end;
+}
+
+.header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/background.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.description{
+	left:50%;
+	position: absolute;
+	top:45%;
+	transform: translate(-50%,-55%);
+	text-align:center;
+}
+
+.description h1{
+	color:#3385ff;
+	font-size: 5rem;
+}
+.description p{
+	color: #005ce6;
+	font-size: 1.5rem;
+	line-height: 1.5;
+}
+
+.features{
+	margin: 4em auto; 
+	padding: 1em;
+	position: relative;
+}
+
+.feature-title{
+	color:#3385ff;
+	font-size: 5rem; 
+	font-weight: 500; 
+	margin-bottom: 50px;
+	text-transform: uppercase;
+}
+
+.content1{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/content1.jpg);
+	height: 50vh;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.content1 p{
+	color: #005ce6;
+	font-size: 2rem;
+}
+
+.content2{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/content2.jpg);
+	height: 50vh;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.content2 p{
+	color: #005ce6;
+	font-size: 2rem;
+}
+
+.content3{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/content3.jpg);
+	height: 50vh;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.content3 p{
+	color: #005ce6;
+	font-size: 2rem;
+}
+
+.page-footer{
+	background-color:#222;
+	color: #ccc;
+	padding: 60px 0 30px;
+}
+.footer-copyright{
+	color: #666;
+	padding: 40px 0;
+}

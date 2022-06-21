@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Personal Web Page</title>
+<link href="BSS/css/bootstrap.min.css" rel="stylesheet">
+<link href="resources/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md">
+	<a class="navbar-brand" href="#top">Personal Web Page</a>
+	<button class="navbar-toggler navbar-dark" type=button data-toggle="collapse" data-target="#main-navigation">
+	<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="main-navigation">
+	<ul class="navbar-nav">
+		<li class="nav-item">
+			<a class="nav-link" href="#home">Home</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#me">About Me</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#interests">My Interests</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#motivations">My Motivations</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#contact">Contact Me</a>
+		</li>
+	</ul>
+	</div>
+</nav>
+
+<header>
+<div class="page-header header container-fluid" id="home">
+<div class="description">
+	<h1>Welcome to my Personal Web Page</h1>
+	<p>This is my introduction. You shall know all about me!</p>
+	<form action="PrintServlet" method="Post">
+    	<input type="submit" value="Short Intro">
+	</form>
+</div>
+</div>
+</header>
+
+
+<div class = "container-fluid features"> 
+	<div class ="row">
+	<div class ="content1">
+	<h2 class="feature-title" id="me">About Me</h2>
+	<p> My name is Eric Tan Shing Li, currently study Software Engineering in Xiamen University Malaysia. My student ID is SWE1904863.</p>
+	</div>
+	</div>
+	
+	<div class ="row">
+	<div class ="content2">
+	<h2 class="feature-title" id="interests">My Interests</h2>
+	<p> I like to play video games and watch movies in my leisure time. </p>
+	<p> Besides that, my current favorite sport is football and favorite video game is Dota 2 (Defend of the Ancient 2).</p>
+	</div>
+	</div>
+	
+	<div class ="row">
+	<div class ="content3">
+	<h2 class="feature-title" id="motivations">My Motivations</h2>
+	<p>When I was young, I get in touch with IT-related stuff and I have huge interest in IT field.</p>
+	<p>It motivates me to study more and learn more about IT and found a IT-related job career in future.</p>
+	<p>Furthermore, the supports from my family and friends to let me persuade my dream further increase my motivation.</p>
+	</div>
+	</div>
+	
+	<div class ="row">
+	<h2 class="feature-title" id="contact">Contact Me</h2>
+	<div id="error message"></div>
+	<form name ="ContactMe" onsubmit="return validate()" method="post">
+	<div class="form-group">
+		<input type="text" class="form-control" placeholder="Name" id="name" name="name">
+	</div>
+	<div class="form-group">
+		<input type="email" class="form-control" placeholder="Email" id="email" name="email">
+	</div>
+	<div class ="form-group">
+		<input type="text" class ="form-control"  placeholder="Message" id="message" name="message">
+	</div>
+	<input type="submit" class="btn btn-secondary btn-block" value="Send" >
+	</form>
+	</div>
+	
+</div>
+
+<footer class = "page-footer">
+	<div class = "container">
+	<div class = "row">		
+	</div>
+	</div>
+	<div class = "footer-copy-right text-center">(c) COPYRIGHT 2021 ERIC </div>
+</footer>
+
+<script src="BSS/js/bootstrap.min.js"></script>
+<script src="JavaScript/JS.js"></script>
+</body>
+</html>
